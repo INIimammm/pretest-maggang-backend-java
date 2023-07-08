@@ -1,0 +1,8 @@
+
+Entitas Pelanggan memiliki atribut ID Pelanggan, Nama Pelanggan, Alamat, dan Email. Setiap pelanggan dapat memiliki banyak pesanan (hubungan satu-ke-banyak antara Pelanggan dan Pesanan).
+
+Entitas Produk memiliki atribut ID Produk, Nama Produk, Deskripsi, Harga, dan Jumlah Stok. Setiap produk dapat terkait dengan banyak detail pesanan (hubungan satu-ke-banyak antara Produk dan Detail Pesanan).
+
+Entitas Pesanan memiliki atribut ID Pesanan, Tanggal Pesanan, dan Status. Setiap pesanan terkait dengan satu pelanggan (hubungan satu-ke-banyak antara Pesanan dan Pelanggan), dan memiliki banyak detail pesanan (hubungan satu-ke-banyak antara Pesanan dan Detail Pesanan).
+
+Entitas Detail Pesanan memiliki atribut ID Detail Pesanan, Jumlah, dan Subtotal. Setiap detail pesanan terkait dengan satu produk (hubungan satu-ke-banyak antara Detail Pesanan dan Produk), dan terkait dengan satu pesanan (hubungan satu-ke-banyak antara Detail Pesanan dan Pesanan).
