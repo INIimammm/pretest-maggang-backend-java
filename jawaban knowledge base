@@ -1,0 +1,19 @@
+1. REST API adalah cara untuk menghubungkan aplikasi dengan server menggunakan protokol HTTP. Setiap sumber daya diidentifikasi dengan URI yang unik. 
+Ada empat metode dasar atau HTTP verbs: GET, POST, PUT, dan DELETE. REST API mudah diimplementasikan, mudah diakses, dan dapat digunakan dengan berbagai bahasa
+pemrograman dan platform. REST API juga memungkinkan pengembangan aplikasi yang lebih modular dan scalable.
+2. Server-side processing adalah pemrosesan data di sisi server, sedangkan client-side processing adalah pemrosesan data di sisi klien atau browser.
+Keuntungan dari server-side processing adalah keamanan dan integritas data, namun kelemahannya adalah waktu respon yang lambat dan 
+memerlukan lebih banyak sumber daya server. Keuntungan dari client-side processing adalah waktu respon yang cepat dan interaktif, namun kelemahannya adalah
+kurangnya keamanan dan integritas data, dan juga memerlukan lebih banyak sumber daya pada sisi klien.
+3. Monolith dan Microservices adalah dua cara berbeda dalam mengembangkan aplikasi. Monolith memiliki satu unit besar yang terhubung, sementara Microservices 
+terdiri dari beberapa layanan kecil yang independen satu sama lain. Contoh Monolith adalah Amazon, dan contoh Microservices adalah PayPal. 
+Keuntungan Microservices adalah waktu pengembangan lebih cepat dan fleksibilitas dalam menambahkan atau menghapus fitur, sedangkan keuntungan 
+Monolith adalah mudah dikelola dan dipelihara.
+4. Inversion of Control (IoC) dan Dependency Injection (DI) adalah konsep dalam pengembangan perangkat lunak yang memungkinkan kontrol aliran eksekusi kode dipindahkan
+dari aplikasi ke kerangka kerja atau library. DI adalah teknik implementasi dari prinsip IoC. Dalam model DI, kelas atau objek menerima dependensi sebagai 
+parameter atau melalui injeksi. Hal ini membuat kode lebih modular, mudah diuji, dan mudah untuk dikelola. 
+5. Java programming adalah bahasa pemrograman yang digunakan untuk membuat berbagai jenis aplikasi, seperti desktop, web, mobile, dan enterprise.
+Spring framework adalah kerangka kerja populer untuk pengembangan aplikasi Java dan enterprise. Spring Boot adalah proyek dari Spring framework yang 
+menyediakan konfigurasi otomatis dan banyak fitur bawaan untuk mempercepat pengembangan aplikasi Java. Kombinasi antara Java programming dan Spring 
+framework, khususnya Spring Boot, memungkinkan pengembang membuat aplikasi Java dan enterprise yang kuat, modular, dan mudah diintegrasikan dengan 
+teknologi lainnya.
